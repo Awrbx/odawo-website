@@ -1,0 +1,145 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #222;
+}
+
+header {
+  background: #1fa055;
+  color: #fff;
+  padding: 1rem 0 0.5rem 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav {
+  margin: 0.5rem 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #fff;
+  padding: 1rem 0.5rem;
+  gap: 1rem;
+}
+
+.main-img {
+  border-radius: 18px;
+  box-shadow: 0 2px 10px rgba(100,200,100,0.08);
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+}
+
+section {
+  background: #fff;
+  margin: 1.2rem auto;
+  padding: 1.5rem;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+}
+
+section h2 {
+  color: #1fa055;
+  margin-top: 0;
+}
+
+ul, li {
+  text-align: left;
+}
+
+.org-chart {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 12px;
+  background: #f8fff8;
+  padding: 0.5rem;
+}
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.photos-grid img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #e9ecef;
+  min-height: 120px;
+}
+
+footer {
+  background: #1fa055;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer-logo img {
+  width: 70px;
+  margin-bottom: 0.5rem;
+}
+
+.footer-info a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+blockquote {
+  background: #f9f9f9;
+  color: #444;
+  border-left: 4px solid #1fa055;
+  margin: 1em 0;
+  padding: 0.8em 1.5em;
+  border-radius: 6px;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  header h1 { font-size: 1.3rem; }
+  section { padding: 1rem; }
+  .gallery { gap: 0.5rem; }
+  .main-img { max-width: 100px; }
+  .org-chart { max-width: 100%; }
+}
