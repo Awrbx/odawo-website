@@ -1,0 +1,12 @@
+odawo-website/
+├── index.html
+├── styles.css
+├── images/
+│   ├── logo.png
+│   ├── profile1.jpg
+│   ├── profile2.jpg
+│   ├── organ_chart.jpg
+│   ├── activity1.jpg
+│   ├── activity2.jpg
+│   ├── activity3.jpg
+│   └── activity4.jpg
